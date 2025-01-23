@@ -36,8 +36,9 @@ const addTask = ()=>{
 
 const toogleTaskComplete = (index) => {
     tasks[index].completed = !tasks[index].completed;
-    console.log({ tasks })
+    updateTask();
     updateStatus();
+    saveTask();
 }
 
 const deleteTask = (index) => {

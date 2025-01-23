@@ -139,5 +139,5 @@ button{
 
 .completed p {
     text-decoration: line-through;
-    color: gray;
+    color: var(--teal);
 }
